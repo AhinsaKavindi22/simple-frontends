@@ -1,0 +1,55 @@
+* {
+  margin: 0
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 120vh;
+  
+}
+
+.container h1 {
+  color: black;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.registartion-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  color: black;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+  border color: darkblue;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+
+
+.registartion-form .submit {
+  align-content: center;
+  align-items: center;
+  width: 50%;
+  
+  font-size: 20px;
+  color: rgb(44, 44, 44);
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.registartion-form .submit:hover {
+  box-shadow: 3px 3px 6px rgb(255, 214, 176);
+}
