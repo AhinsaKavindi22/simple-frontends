@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Cal.css">
+    <script src="Cal.js"></script>
+</head>
+<body>
+    <table id="calcu">
+        <tr>
+            <th colspan="3"><input type="text" value="" id="result"></th>
+            <td><input type="button" value="c" onclick="clr()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="dis('1')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="2" onclick="dis('2')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="3" onclick="dis('3')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="/" onclick="dis('/')" onkeydown="myFunction(event)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="dis('4')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="5" onclick="dis('5')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="6" onclick="dis('6')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="*" onclick="dis('*')" onkeydown="myFunction(event)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="dis('7')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="8" onclick="dis('8')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="9" onclick="dis('9')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="-" onclick="dis('-')" onkeydown="myFunction(event)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="dis('0')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="." onclick="dis('.')" onkeydown="myFunction(event)"></td>
+            <td><input type="button" value="=" onclick="calculate()"></td>
+            <td><input type="button" value="+" onclick="dis('+')" onkeydown="myFunction(event)"></td>
+        </tr>
+    </table>
+</body>
+</html>
